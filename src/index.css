@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Code:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-brand-black text-brand-gray font-mono m-0 p-0 overflow-x-hidden;
+    /* Custom terminal block cursor */
+    cursor: url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' width='16' height='24' viewport='0 0 16 24' style='fill:rgb(211,211,211);'><rect width='12' height='20'/></svg>") 0 0, auto;
+  }
+}
+
+/* CRT Effect */
+.crt-effect::before {
+  content: " ";
+  display: block;
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background: linear-gradient(rgba(18, 16, 16, 0) 50%, rgba(0, 0, 0, 0.25) 50%), linear-gradient(90deg, rgba(255, 0, 0, 0.06), rgba(0, 255, 0, 0.02), rgba(0, 0, 255, 0.06));
+  z-index: 50;
+  background-size: 100% 4px, 6px 100%;
+  pointer-events: none;
+}
+
+.crt-flicker {
+  animation: flicker 0.15s infinite;
+}
+
+@keyframes flicker {
+  0% { opacity: 0.98; }
+  50% { opacity: 0.95; }
+  100% { opacity: 0.99; }
+}
+
+.text-glow {
+  text-shadow: 0 0 5px rgba(211, 211, 211, 0.5), 0 0 10px rgba(211, 211, 211, 0.2);
+}
+
+.copper-glow {
+  text-shadow: 0 0 5px rgba(184, 115, 51, 0.5), 0 0 10px rgba(184, 115, 51, 0.2);
+}
+
+.box-glow {
+  box-shadow: 0 0 8px rgba(184, 115, 51, 0.3);
+}
+
+.blink {
+  animation: blink-animation 1s steps(2, start) infinite;
+}
+
+@keyframes blink-animation {
+  to {
+    visibility: hidden;
+  }
+}
