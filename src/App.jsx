@@ -223,7 +223,7 @@ function App() {
             href="https://instagram.com/" 
             target="_blank" 
             rel="noopener noreferrer"
-            className="inline-block border-2 border-brand-copper text-brand-copper px-8 py-4 text-xl tracking-widest font-bold hover:bg-brand-copper hover:text-brand-black transition-all duration-300 uppercase relative group"
+            className="inline-flex max-w-full items-center justify-center border-2 border-brand-copper text-brand-copper px-4 py-3 sm:px-6 sm:py-4 text-sm sm:text-base md:text-xl tracking-wider sm:tracking-widest font-bold hover:bg-brand-copper hover:text-brand-black transition-all duration-300 uppercase relative group text-center break-words"
           >
             <span className="absolute w-2 h-2 bg-brand-copper top-0 left-0 -translate-x-1/2 -translate-y-1/2 group-hover:bg-brand-black transition-colors"></span>
             <span className="absolute w-2 h-2 bg-brand-copper top-0 right-0 translate-x-1/2 -translate-y-1/2 group-hover:bg-brand-black transition-colors"></span>
