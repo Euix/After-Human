@@ -30,7 +30,7 @@ function App() {
       <header className="flex justify-between items-center p-6 border-b border-brand-copper/30">
         <div className="flex items-center">
           <img 
-            src="public/logo.png" 
+            src={`${import.meta.env.BASE_URL}public/logo.png`}
             alt="After Human Logo" 
             className="h-[60px] object-contain" 
             onError={(e) => {
