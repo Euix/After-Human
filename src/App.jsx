@@ -30,7 +30,7 @@ function App() {
       <header className="flex justify-between items-center p-6 border-b border-brand-copper/30">
         <div className="flex items-center">
           <img 
-            src={`${import.meta.env.BASE_URL}public/logo.png`}
+            src={`${import.meta.env.BASE_URL}logo.png`}
             alt="After Human Logo" 
             className="h-[60px] object-contain" 
             onError={(e) => {
@@ -117,7 +117,7 @@ function App() {
               <div className="aspect-[4/5] w-full border border-brand-copper/30 mb-4 relative overflow-hidden bg-[#0A0A0A] flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2rV7928GBgYmBggwAAgwADcHAw0YLEmAAAAAAElFTkSuQmCC')] opacity-10 mix-blend-overlay"></div>
                 <img 
-                  src="public/print1.png" 
+                  src={`${import.meta.env.BASE_URL}print1.png`}
                   alt="Black Mirror" 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 opacity-80"
                   onError={(e) => {
@@ -148,7 +148,7 @@ function App() {
               <div className="aspect-[4/5] w-full border border-brand-copper/30 mb-4 relative overflow-hidden bg-[#0A0A0A] flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2rV7928GBgYmBggwAAgwADcHAw0YLEmAAAAAAElFTkSuQmCC')] opacity-10 mix-blend-overlay"></div>
                 <img 
-                  src="public/print2.png"  
+                  src={`${import.meta.env.BASE_URL}print2.png`}  
                   alt="Key to Nowhere" 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 opacity-80"
                   onError={(e) => {
@@ -179,7 +179,7 @@ function App() {
               <div className="aspect-[4/5] w-full border border-brand-copper/30 mb-4 relative overflow-hidden bg-[#0A0A0A] flex items-center justify-center">
                 <div className="absolute inset-0 bg-[url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAIAAAACCAYAAABytg0kAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAABZJREFUeNpi2rV7928GBgYmBggwAAgwADcHAw0YLEmAAAAAAElFTkSuQmCC')] opacity-10 mix-blend-overlay"></div>
                 <img 
-                   src="public/print3.png"  
+                   src={`${import.meta.env.BASE_URL}print3.png`}  
                   alt="Perfect World" 
                   className="w-full h-full object-cover filter grayscale group-hover:grayscale-0 transition-all duration-500 opacity-80"
                   onError={(e) => {
