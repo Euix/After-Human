@@ -220,7 +220,7 @@ function App() {
           </p>
           
           <a 
-            href="https://instagram.com/" 
+            href="https://ig.me/m/afterhuman.sys" 
             target="_blank" 
             rel="noopener noreferrer"
             className="inline-flex max-w-full items-center justify-center border-2 border-brand-copper text-brand-copper px-4 py-3 sm:px-6 sm:py-4 text-sm sm:text-base md:text-xl tracking-wider sm:tracking-widest font-bold hover:bg-brand-copper hover:text-brand-black transition-all duration-300 uppercase relative group text-center break-words"
